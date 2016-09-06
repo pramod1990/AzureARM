@@ -27,11 +27,11 @@
       <name>Test Project Site</name>
       <url>file:///tmp/multi-module-site</url>
     </site>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>localhost-snapshots</name>
-        <url>http://192.168.0.21:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+#    <snapshotRepository>
+ #       <id>snapshots</id>
+  #      <name>localhost-snapshots</name>
+  #      <url>http://192.168.0.21:8081/artifactory/libs-snapshot-local</url>
+   # </snapshotRepository>
 </distributionManagement>
 
 
