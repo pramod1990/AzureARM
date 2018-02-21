@@ -6,4 +6,4 @@ Set-WebConfigurationProperty -filter /system.webServer/directoryBrowse -name ena
 
 Set-WebConfigurationProperty -filter system.webServer/security/authentication/anonymousAuthentication -name enabled -PSPath 'IIS:\Sites\' -value true
 Set-WebConfiguration -pspath 'MACHINE/WEBROOT/APPHOST' -filter "system.webServer/security/isapiCgiRestriction" -value @{description='uk';path='C:\inetpub\wwwroot\uk\MedUpdate.dll';allowed='True'}
-Set-webconfiguration /system.applicationHost/applicationPools//@enable32BitAppOnWin64 -Value "true"
+Set-Webconfiguration /system.applicationHost/applicationPools//@enable32BitAppOnWin64 -Value "true"
