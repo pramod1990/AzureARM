@@ -1,0 +1,32 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vmSSName": {
+            "value": "DSCVMSSVP"
+        },
+		"adminUsername": {
+		     "value": "XXXXXXX"
+        },
+		"adminPassword": {
+			     "value": "XXXXXXXXXX"
+        },
+		
+	"vmSize": {
+			"value":"Standard_DS2"
+			},
+	"instanceCount": 
+	{
+	"value":5
+    },
+	
+"image": {
+            "value": {
+                "sku": "2016-Datacenter",
+                "publisher": "MicrosoftWindowsServer",
+                "version": "latest",
+                "offer": "WindowsServer"
+            }
+        }
+		}
+		}
